@@ -52,7 +52,7 @@ class WeiXinActivity : UIActivity {
     
     //analysis share messages
     override func prepareWithActivityItems(activityItems: [AnyObject]) {
-        print("prepareWithActivityItems")
+        //print("prepareWithActivityItems")
         for item in activityItems {
             if item is UIImage {
                 image = item as! UIImage
@@ -96,7 +96,7 @@ class WeiXinActivity : UIActivity {
         let req =  SendMessageToWXReq()
         req.bText = false
         req.message = message
-        req.scene = WXSceneSession.rawValue
+        req.scene = WXSceneSession.rawValue 
         WXApi.sendReq(req)
 
         //print("activityViewController")

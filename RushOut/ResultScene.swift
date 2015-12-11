@@ -48,12 +48,12 @@ class ResultScene: SKScene,UIActionSheetDelegate {
         
         let sharePic:SKTexture = SKTexture(imageNamed: "button1.png")
         shareBtn = SKSpriteNode.init(texture: sharePic, color: UIColor.whiteColor(), size: CGSizeMake(120, 60))
-        shareBtn.position = CGPoint(x:CGRectGetMidX(self.frame)-80, y:CGRectGetMidY(self.frame)-100);
+        shareBtn.position = CGPoint(x:CGRectGetMidX(self.frame)+80, y:CGRectGetMidY(self.frame)-100);
         
         self.addChild(shareBtn)
         let againPic:SKTexture = SKTexture(imageNamed: "button2.png")
         againBtn = SKSpriteNode.init(texture: againPic, color: UIColor.whiteColor(), size: CGSizeMake(120, 60))
-        againBtn.position = CGPoint(x:CGRectGetMidX(self.frame)+80, y:CGRectGetMidY(self.frame)-100);
+        againBtn.position = CGPoint(x:CGRectGetMidX(self.frame)-80, y:CGRectGetMidY(self.frame)-100);
         
         self.addChild(againBtn)
         

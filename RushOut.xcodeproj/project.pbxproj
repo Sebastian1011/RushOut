@@ -10,13 +10,6 @@
 		9E2462851BE705380019D934 /* ResultScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2462841BE705380019D934 /* ResultScene.swift */; };
 		9E2462871BE707EA0019D934 /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2462861BE707EA0019D934 /* yes.png */; };
 		9E4AD2B21BE655A10019D44D /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4AD2B11BE655A10019D44D /* PlayScene.swift */; };
-		9E70947C1BE7C2B300F10048 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70947B1BE7C2B300F10048 /* Social.framework */; };
-		9E70948B1BE85BF400F10048 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70948A1BE85BF400F10048 /* CoreTelephony.framework */; };
-		9E70948D1BE85C0900F10048 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70948C1BE85C0900F10048 /* SystemConfiguration.framework */; };
-		9E70948F1BE85C1D00F10048 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70948E1BE85C1D00F10048 /* libz.tbd */; };
-		9E7094911BE85C2E00F10048 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7094901BE85C2E00F10048 /* libsqlite3.0.tbd */; };
-		9E70949D1BE87DB900F10048 /* WeChatSDK in Resources */ = {isa = PBXBuildFile; fileRef = 9E70949C1BE87DB900F10048 /* WeChatSDK */; };
-		9E70949F1BE87E0A00F10048 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E70949E1BE87E0A00F10048 /* libWeChatSDK.a */; };
 		9E7094A11BE887DE00F10048 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E7094A01BE887DE00F10048 /* share.png */; };
 		9ED6EC241BF07EB1001C9880 /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED6EC231BF07EB1001C9880 /* button1.png */; };
 		9ED6EC261BF07EC5001C9880 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED6EC251BF07EC5001C9880 /* button2.png */; };
@@ -28,6 +21,9 @@
 		9ED6EC401BF09568001C9880 /* MomentsActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED6EC3F1BF09568001C9880 /* MomentsActivity.swift */; };
 		9ED6EC421BF09B23001C9880 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED6EC411BF09B23001C9880 /* icon.png */; };
 		9ED6EC441BF09BF9001C9880 /* wechat_moments.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED6EC431BF09BF9001C9880 /* wechat_moments.png */; };
+		9ED6EC4C1BF594A2001C9880 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED6EC4B1BF594A2001C9880 /* CoreTelephony.framework */; };
+		9ED6EC521BF5C150001C9880 /* WeChatSDK in Resources */ = {isa = PBXBuildFile; fileRef = 9ED6EC511BF5C150001C9880 /* WeChatSDK */; };
+		9ED6EC5A1BF5C68A001C9880 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED6EC591BF5C68A001C9880 /* libWeChatSDK.a */; };
 		9EF8AA4B1BE642BC00B9996F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA4A1BE642BC00B9996F /* AppDelegate.swift */; };
 		9EF8AA4F1BE642BC00B9996F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA4E1BE642BC00B9996F /* GameScene.swift */; };
 		9EF8AA511BE642BC00B9996F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8AA501BE642BC00B9996F /* GameViewController.swift */; };
@@ -59,13 +55,6 @@
 		9E2462841BE705380019D934 /* ResultScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultScene.swift; sourceTree = "<group>"; };
 		9E2462861BE707EA0019D934 /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yes.png; path = ../../../../Downloads/yes.png; sourceTree = "<group>"; };
 		9E4AD2B11BE655A10019D44D /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
-		9E70947B1BE7C2B300F10048 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		9E70948A1BE85BF400F10048 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		9E70948C1BE85C0900F10048 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		9E70948E1BE85C1D00F10048 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		9E7094901BE85C2E00F10048 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		9E70949C1BE87DB900F10048 /* WeChatSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WeChatSDK; sourceTree = "<group>"; };
-		9E70949E1BE87E0A00F10048 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = RushOut/WeChatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
 		9E7094A01BE887DE00F10048 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Omnigraffle/untitled folder/share.png"; sourceTree = "<group>"; };
 		9ED6EC231BF07EB1001C9880 /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
 		9ED6EC251BF07EC5001C9880 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
@@ -77,6 +66,9 @@
 		9ED6EC3F1BF09568001C9880 /* MomentsActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsActivity.swift; sourceTree = "<group>"; };
 		9ED6EC411BF09B23001C9880 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		9ED6EC431BF09BF9001C9880 /* wechat_moments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wechat_moments.png; sourceTree = "<group>"; };
+		9ED6EC4B1BF594A2001C9880 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9ED6EC511BF5C150001C9880 /* WeChatSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WeChatSDK; sourceTree = "<group>"; };
+		9ED6EC591BF5C68A001C9880 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = RushOut/WeChatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
 		9EF8AA471BE642BC00B9996F /* RushOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RushOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF8AA4A1BE642BC00B9996F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EF8AA4E1BE642BC00B9996F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -98,12 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E70949F1BE87E0A00F10048 /* libWeChatSDK.a in Frameworks */,
-				9E7094911BE85C2E00F10048 /* libsqlite3.0.tbd in Frameworks */,
-				9E70948F1BE85C1D00F10048 /* libz.tbd in Frameworks */,
-				9E70948D1BE85C0900F10048 /* SystemConfiguration.framework in Frameworks */,
-				9E70948B1BE85BF400F10048 /* CoreTelephony.framework in Frameworks */,
-				9E70947C1BE7C2B300F10048 /* Social.framework in Frameworks */,
+				9ED6EC5A1BF5C68A001C9880 /* libWeChatSDK.a in Frameworks */,
+				9ED6EC4C1BF594A2001C9880 /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,12 +115,8 @@
 		9EF8AA3E1BE642BC00B9996F = {
 			isa = PBXGroup;
 			children = (
-				9E70949E1BE87E0A00F10048 /* libWeChatSDK.a */,
-				9E7094901BE85C2E00F10048 /* libsqlite3.0.tbd */,
-				9E70948E1BE85C1D00F10048 /* libz.tbd */,
-				9E70948C1BE85C0900F10048 /* SystemConfiguration.framework */,
-				9E70948A1BE85BF400F10048 /* CoreTelephony.framework */,
-				9E70947B1BE7C2B300F10048 /* Social.framework */,
+				9ED6EC591BF5C68A001C9880 /* libWeChatSDK.a */,
+				9ED6EC4B1BF594A2001C9880 /* CoreTelephony.framework */,
 				9EF8AA491BE642BC00B9996F /* RushOut */,
 				9EF8AA621BE642BD00B9996F /* RushOutTests */,
 				9EF8AA6D1BE642BD00B9996F /* RushOutUITests */,
@@ -153,7 +137,7 @@
 		9EF8AA491BE642BC00B9996F /* RushOut */ = {
 			isa = PBXGroup;
 			children = (
-				9E70949C1BE87DB900F10048 /* WeChatSDK */,
+				9ED6EC511BF5C150001C9880 /* WeChatSDK */,
 				9E2462861BE707EA0019D934 /* yes.png */,
 				9ED6EC2B1BF080A3001C9880 /* pyq.png */,
 				9ED6EC291BF0809B001C9880 /* wexin.png */,
@@ -265,7 +249,7 @@
 				TargetAttributes = {
 					9EF8AA461BE642BC00B9996F = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = LE795W6N4G;
+						DevelopmentTeam = 52P5SXN2D5;
 					};
 					9EF8AA5E1BE642BD00B9996F = {
 						CreatedOnToolsVersion = 7.1;
@@ -305,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ED6EC2C1BF080A3001C9880 /* pyq.png in Resources */,
-				9E70949D1BE87DB900F10048 /* WeChatSDK in Resources */,
+				9ED6EC521BF5C150001C9880 /* WeChatSDK in Resources */,
 				9ED6EC281BF07EDA001C9880 /* button.png in Resources */,
 				9ED6EC441BF09BF9001C9880 /* wechat_moments.png in Resources */,
 				9ED6EC3C1BF09485001C9880 /* wechat_icon.png in Resources */,
@@ -420,7 +404,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ziming Zhang (52P5SXN2D5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ziming Zhang (52P5SXN2D5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -442,6 +427,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f61678f9-2102-4162-a727-37132be5ed4d";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -464,7 +450,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ziming Zhang (52P5SXN2D5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ziming Zhang (52P5SXN2D5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -479,6 +466,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "f61678f9-2102-4162-a727-37132be5ed4d";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -490,16 +479,18 @@
 				ADDITIONAL_SDKS = "$(PROJECT_DIR)/RushOut/WeChatSDK";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RushOut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/RushOut/WeChatSDK",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = tingdao.me.RushOut;
+				PRODUCT_BUNDLE_IDENTIFIER = game.tingdao.me.RushOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = RushOut/WeChatSDK/WXApi.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -514,16 +505,18 @@
 				ADDITIONAL_SDKS = "$(PROJECT_DIR)/RushOut/WeChatSDK";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RushOut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/RushOut/WeChatSDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = tingdao.me.RushOut;
+				PRODUCT_BUNDLE_IDENTIFIER = game.tingdao.me.RushOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = RushOut/WeChatSDK/WXApi.h;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -559,11 +552,13 @@
 		9EF8AA7A1BE642BD00B9996F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ziming Zhang (52P5SXN2D5)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = RushOutUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tingdao.com.RushOutUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f61678f9-2102-4162-a727-37132be5ed4d";
 				TEST_TARGET_NAME = RushOut;
 				USES_XCTRUNNER = YES;
 			};
@@ -572,10 +567,12 @@
 		9EF8AA7B1BE642BD00B9996F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ziming Zhang (52P5SXN2D5)";
 				INFOPLIST_FILE = RushOutUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tingdao.com.RushOutUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f61678f9-2102-4162-a727-37132be5ed4d";
 				TEST_TARGET_NAME = RushOut;
 				USES_XCTRUNNER = YES;
 			};
